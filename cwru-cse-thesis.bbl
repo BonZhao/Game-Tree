@@ -1,0 +1,94 @@
+\begin{thebibliography}{10}
+
+\bibitem{GT}
+Man-tak~Shing Te~Chiang~Hu.
+\newblock Combinatorial algorithms.
+\newblock {\em Combinatorial Algorithms}, 2002.
+
+\bibitem{MCS}
+Daniele Gardy Bernhard~Gittenberger Michael~Drmota, Philippe~Flajolet.
+\newblock {\em Mathematics and Computer Science III Algorithms, Trees,
+  Combinatorics and Probabilities}.
+\newblock 2000.
+
+\bibitem{DETER}
+Victor Allis.
+\newblock Searching for solutions in games and artificial intelligence.
+\newblock {\em University of Limburg, Maastricht, The Netherlands}, 1994.
+
+\bibitem{RG}
+Daniel Roche.
+\newblock Randomness in computing, game tree unit.
+\newblock {\em United States Academy}, 2013.
+
+\bibitem{RANDOM1995}
+Prabhakar~Raghavan Rajeev~Motwani.
+\newblock Randomized algorithm.
+\newblock pages 28--42, 1995.
+
+\bibitem{YAO}
+Andrew Yao.
+\newblock Probabilistic computations: Toward a unified measure of complexity.
+\newblock {\em Proceedings of the 18th IEEE Symposium on Foundations of
+  Computer Science (FOCS)}, pages 222--227, 1977.
+
+\bibitem{SA}
+Shmuel~Zamir Michael~Maschler, Eilon~Solan.
+\newblock {\em Game Theory}.
+\newblock 2013.
+
+\bibitem{VON}
+Ann.
+\newblock {\em Contributions to the theory of games}.
+\newblock 1950.
+
+\bibitem{LOOMIS}
+Lynn~H Loomis.
+\newblock On a theorem of von neumann.
+\newblock {\em National Academy of Sciences}, 1946.
+
+\bibitem{M}
+F.~Meyer auf~der Heide.
+\newblock Nondeterministic versus probabilistic linear search algorithms.
+\newblock {\em Proc.26th Annual Symposium on Foundations of Computer Science},
+  pages 65--73, 1985.
+
+\bibitem{LAS}
+Steven~D. Galbraith.
+\newblock Mathematics of public key cryptography.
+\newblock {\em Mathematics of Public Key Cryptography}, pages 16--17, 2012.
+
+\bibitem{S}
+M~Snir.
+\newblock Lower bounds for probabilistic linear decision trees.
+\newblock {\em Theoretical Computer Science}, 1985.
+
+\bibitem{MT}
+U.~Manber and M.~Tompa.
+\newblock The complexity of problems on probabilistic nondeterministic and
+  alternating decision trees.
+\newblock {\em JACM}, 1985.
+
+\bibitem{YAOC}
+Andrew Yao.
+\newblock Probabilistic computations: towards a unified measure of complexity.
+\newblock {\em Proc. 18th Annual Symposium on Foundations of Computer Science},
+  1977.
+
+\bibitem{YAOS}
+Ran Borodin~Allan, El-Yaniv.
+\newblock Online computation and competitive analysis.
+\newblock 2005.
+
+\bibitem{FIBONACCI1982}
+Yasuichi Horibe.
+\newblock "notes on fibonacci trees and their optimality".
+\newblock 1982.
+
+\bibitem{PROBABILISTIC}
+Avi~Widerson Michael~Saks.
+\newblock Probabilistic boolean decision trees and the complexity of evaluating
+  game trees.
+\newblock {\em IEEE}, 1986.
+
+\end{thebibliography}

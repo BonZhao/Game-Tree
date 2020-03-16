@@ -1,0 +1,81 @@
+\chapter{Detailed Calculation}
+\subsection{Lemma \ref{lemma:rhok}}
+The characteristic equation is:
+\begin{equation}
+A-\lambda I=\begin{pmatrix}
+\frac{1}{2 a}-\lambda & \frac{2}{a^2} \\
+1             & -\lambda 
+\end{pmatrix}\;
+=\lambda^2-\frac{1}{2 a}\lambda-\frac{2}{a^2}=0
+\end{equation}
+which solved for $\lambda$ gets the claimed eigenvalues.
+
+We know that $\vect{v}_1 = A \vect{v}_1  $, which is:
+\begin{equation}
+\begin{pmatrix}
+x \\ 
+y 
+\end{pmatrix}\;
+=
+\begin{pmatrix}
+\frac{1}{2 a} & \frac{2}{a^2} \\
+1             & 0 
+\end{pmatrix}\;
+\begin{pmatrix}
+x \\ 
+y 
+\end{pmatrix}\;
+\end{equation}
+By calculation:
+\begin{flalign}
+\label{eqn:xany}x &= \frac{1}{2 a}x+\frac{2}{a^2}y\\
+\label{eqn:xey} y &= x
+\end{flalign}
+By \eqref{eqn:xany}, we could find $x$ could be any value. 
+We already know that $\vect{v}_1$ is a unit vector.
+
+Because $A \vect{v}_2 = \lambda_2 \vect{v}_2$. Thus we could find:
+\begin{equation}
+\lambda_2
+\begin{pmatrix}
+x \\ 
+y 
+\end{pmatrix}\;
+= 
+\begin{pmatrix}
+\frac{1}{2 a} & \frac{2}{a^2} \\
+1             & 0 
+\end{pmatrix}\;
+\begin{pmatrix}
+x \\ 
+y 
+\end{pmatrix}\;
+\end{equation}
+By calculation, 
+\begin{flalign}
+\label{eqn:xany2}\lambda_2 x &= \frac{1}{2 a}x+\frac{2}{a^2}y\\
+\label{eqn:x2ey}\lambda_2 y &=  x
+\end{flalign}
+Therefore we could get:
+$$\vect{v}_2 = 
+\frac{1}{\sqrt{\lambda_2^2+1}}
+\begin{pmatrix}
+\lambda_2\\
+1
+\end{pmatrix}$$
+
+The system of equation becomes:
+$$\frac{\sqrt{2}}{2}\rho+\frac{\lambda_2}{\sqrt{1+\lambda_2^2}}\alpha = \rho_2 $$
+$$\frac{\sqrt{2}}{2}\rho\lambda_2+\frac{\lambda_2}{\sqrt{1+\lambda_2^2}}\alpha = \rho_1\lambda_2$$
+and subtracting the second equation from the first:
+$$\rho=\frac{\rho_1\lambda_2-\rho_2}{\frac{\sqrt{2}}{2}(\lambda_2-1)}=\frac{40+8\sqrt{33}}{\sqrt{66}+33\sqrt{2}}\approx1.5687$$
+
+\subsection{Lower Bound Comparison}
+Since
+$$\rho = \frac{20 \sqrt{2} + 4 \sqrt{66}}{\sqrt{66} + 33 \sqrt{2}}\;,$$
+$$a = (1 + \sqrt{33}) / 4\;,$$
+and the previous lower bound is $(2-p)^k$ where $p = (3-\sqrt{5})/2$. 
+Then,
+$$\lim_{k \rightarrow \infty} \frac{\rho\alpha^k}{(2 - p)^k} = \infty\;,$$
+which implies that the new lower bound is strictly tighter than the previous one.
+

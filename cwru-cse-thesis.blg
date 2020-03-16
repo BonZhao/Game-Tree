@@ -1,0 +1,25 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: cwru-cse-thesis.aux
+A level-1 auxiliary file: content/01-Introduction.aux
+A level-1 auxiliary file: content/02-Background.aux
+A level-1 auxiliary file: content/03-Directional.aux
+A level-1 auxiliary file: content/04-Non-Directional.aux
+A level-1 auxiliary file: content/05-Generality.aux
+A level-1 auxiliary file: content/06-Conclusion.aux
+A level-1 auxiliary file: app/app_detailed_calculation.aux
+The style file: unsrt.bst
+Database file #1: refs/my_references.bib
+I was expecting a `,' or a `}'---line 115 of file refs/my_references.bib
+ :  
+ :  journal = {Cambridge University Press}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "MR"
+Too many commas in name 1 of "Michael Drmota, Philippe Flajolet, Daniele Gardy, Bernhard Gittenberger" for entry MCS
+while executing---line 944 of file unsrt.bst
+Warning--empty publisher in MCS
+Warning--empty journal in RANDOM1995
+Warning--empty publisher in SA
+Warning--empty publisher in VON
+Warning--empty journal in YAOS
+Warning--empty journal in FIBONACCI1982
+(There were 2 error messages)

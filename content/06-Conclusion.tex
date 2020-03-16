@@ -1,0 +1,20 @@
+\chapter{Conclusion and Future Work}
+
+In this chapter, we will discuss some of the strengths and weaknesses of the new game tree evaluation process, and also describe some methods for future work.
+
+All in all, we believe that we have proposed an algorithm for evaluating uniform binary game tree with comparison in Chapter 4 and Chapter 5. We have made very detailed calculation for both directional and Non-directional algorithm's lower bound and prove it with iteration. We have shown this method could also be used for evaluating some more complex type binary game trees but not only uniform tree, including Fibonacci tree, skew-F tree. 
+
+One important strength of our analysis is trying to find out the best probability distribution at first and tighter the lower bound by including conditional probability. This helps us get the better lower bound than "Randomized Algorithm".
+
+In short, we have constructed an algorithm with better lower bound compared with classical game tree evaluation steps which could be used for many cases of binary game tree evaluation.
+
+One important weakness of this algorithm is from the analysis it self. We made some limitation in analysis, which may lead to some loose for the final lower bound result. A tighter lower bound still could be found. Also this algorithm only could be applied for binary game tree. It is questionable its usage in ternary and other types of game tree. In addition, although we already know it is more efficient in binary game tree, we don't know whether this is still good enough in other cases.
+
+Therefore it is clear that there are some future work needed to be done for this algorithm. First of all, this evaluation process only been demonstrated in binary game tree. It is clear that there are many other types of a game trees, like ternary tree, quad tree, or some realistic game tree like the tic-tac-toe game tree, chess board game tree. A more general algorithm may be needed to propose for game tree evaluation based on the previous method, which may includes the number of nodes in each level, different type of boolean functions and so on. Then the algorithm could be applied for many different cases. 
+
+Then it is clear that most of the experiments and analysis are for theatrical field. We could not figure out how this promotion of algorithm could be used for some practical environment. this also could be an important part for the future work. Combined with the a more general evaluation algorithm, some cool things maybe done. For example maybe we could use this analysis method for realistic chess game cases, and calculate the probability to win for both of the two players.
+
+Last but not least, although our algorithm is good enough for game tree evaluation, most of its method is based and inspired by the methods that already known. Obviously, if we could find some new approach that is totally unknown and different from the past will be a very cool thing. 
+
+In conclusion. A more efficient approach for binary game tree evaluation has been proposed by us. It has better lower bound and could be used for evaluates different types of binary game tree. Considering its weakness of using for non-binary game tree, the future work should focus on improve this method for more types of game tree. If possible try its usage in some practical filed like board game will be good. In theoretical aspect, to discover a totally new approach different from previous will be a good method.
+

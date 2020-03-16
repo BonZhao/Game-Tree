@@ -1,0 +1,28 @@
+\chapter{Introduction}
+
+ Game tree is defined as a rooted tree whose internal nodes at even distance from the root are labeled MIN and those at odd distance are labeled MAX.\cite{GT} Each leaf of a game tree is real number which called value. We evaluate the game tree by the following step: Every leaf return its value; Then every MIN node returns the smallest value by its children and the MAX node returns the largest. The aim of the evaluation process is to determine the root's value.
+
+ The evaluation of game trees is a central part in artificial intelligence and game theory,especially in game-playing programs. The children of a node means the options available to one or two players in a game. The leaves of a game tree represent the value of the game for one or two players. One player seeks to maximize this value, and another will try to minimize it. \cite{MCS}For evaluation process, the algorithm will choose a leaf and reads its value. The number of this steps taken by an algorithm is the only issue we focus on, which means no other computation will be charged for the algorithm.
+ 
+ This thesis will be limited in binary tree, whose leaves value is 0 or 1. Therefore, we can transform each MAX node to Boolean OR operation and MIN node to Boolean AND operation, which leads the analysis on AND-OR tree.Furthermore, We investigate a simple model called Nor-tree for computation of Boolean functions. It is a binary boolean decision tree which is a transformation is equivalent AND/OR tree with even height,which will be introduced in following section. 
+ 
+ For instance, a uniform tree whose node has $n$ children and all leaves are at distance $k$ from the root. The evaluation of this game tree is to study the maximum number of steps to evaluate all instances of the game tree in same height and with same leaves. this problem consists of the trees structure and Boolean value of $n^k$ leaves.
+ 
+ There are two ways to evaluate game tree: deterministic algorithm and randomized algorithm. For deterministic algorithm, the choice of the next step is a deterministic function of the values at the leaves read so far. For any deterministic function, there exists an instance that needs to read all the leaves. Therefore, the evaluating result for a deterministic algorithm is always $n^k$. \cite{DETER}
+ 
+ A randomized algorithm is an algorithm which contains randomness as part of its logic. For game tree evaluation, a randomized algorithm means the choice of the next leaf to be read may be randomized. Using randomized algorithm is to achieve good performance in the "average" cases over all possible instances.\cite{RG} We will focus on randomized algorithm in this thesis, because randomized algorithm could benefit game tree evaluation compared with deterministic algorithm. A simple example, For a binary tree with height $k$. Any deterministic algorithm will have to evaluate all $2^k$ leaves. 
+ 
+ A simple randomized algorithm which will take the probability $p<1$ to choose which step to read. For AND node return 0, if a deterministic algorithm reads the 0 at second step, a randomized algorithm will have probability $p$ to read it in the first step, then we don't need to visit the other one. Its expected number of step is $2-p$ which is less than $2$. Similarly, for OR node, if it returns 1, the expected number for randomized algorithm is $2-p$. This adversary could be used for proving the randomized algorithm works better than deterministic algorithm in evaluating game tree, which we will show in section 2.
+ 
+ In this thesis, we proposed a game tree evaluation process compared with the one in "Randomized Algorithm", in which the proof has some loose and the lower bound is not tight. \cite{RANDOM1995} The game tree evaluation process is based on the game theory and Yao's Principle\cite{YAO}. This process provide better lower bound analysis and could be expanded to evaluating not only uniform binary tree but also other types binary game tree.
+
+ In chapter 2, we provide background information of game tree, minimax algorithm and randomized algorithm, which are important for understanding the following analysis. We also introduce basic evaluation steps for nor-tree, a binary tree which equivalent to AND-OR tree. In chapter 3, we discuss the analysis of directional algorithm's and its lower bound on Nor-tree. In chapter 4, we  present the lower bound proof for non-directional algorithm, which includes three different cases. We also make a comparison between directional algorithm and non-directional in order to find which is better. In chapter 5, we will introduce two different binary game tree, skew-F tree and Fibonacci tree, and show whether this game tree evaluation process could also be used for evaluating them. This step is to test versatility of this analysis process.  In chapter 6, we conclude by describing the whole process and future work using this method.
+
+
+%\bibliographystyle{plainnat}
+%\markright{\textit{Bibliography}}
+%\renewcommand{\chaptername}{}
+%x\bibliography{KL-Thesis}
+
+\vfill
+
