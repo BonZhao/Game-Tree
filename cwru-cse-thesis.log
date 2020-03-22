@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.14)  16 MAR 2020 08:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.14)  22 MAR 2020 09:10
 entering extended mode
 **./cwru-cse-thesis.tex
 (cwru-cse-thesis.tex
@@ -846,24 +846,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 160--164
  []
 
 [2]
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 170.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 170.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 170.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 170.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 170.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 170.
-
-Overfull \hbox (28.0pt too wide) in paragraph at lines 170--170
-[][] 
- []
-
-[3]
 Table of Contents
 LaTeX Font Info:    Try loading font information for T1+pag on input line 177.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pag.fd"
@@ -941,10 +923,10 @@ Package xcolor Warning: Incompatible color definition on input line 34.
 
 Underfull \vbox (badness 4832) has occurred while \output is active []
 
- [4
+ [3
 
 ]
-[5]
+[4]
 List of Figures
 (cwru-cse-thesis.lof
 
@@ -981,21 +963,33 @@ Package xcolor Warning: Incompatible color definition on input line 17.
 \tf@lof=\write5
 \openout5 = `cwru-cse-thesis.lof'.
 
- [6
+ [5
 
 ]
 Acknowledgements
-(content/00-Acknowledgements.tex) [7
+(content/00-Acknowledgements.tex) [6
 
 ]
 Abstract
-(content/00-Abstract.tex [8
+(content/00-Abstract.tex [7
 
 ])
 \openout2 = `content/01-Introduction.aux'.
 
  (content/01-Introduction.tex
 Chapter 1
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 3.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 3.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 3.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 3.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 3.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 3.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1019,13 +1013,22 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <12> not available
 
 
 
-] <figs/minimax0.png, id=193, 572.73975pt x 401.0985pt>
-File: figs/minimax0.png Graphic file (type png)
+]
 
-<use figs/minimax0.png>
-Package pdftex.def Info: figs/minimax0.png used on input line 23.
-(pdftex.def)             Requested size: 216.81pt x 151.83145pt.
- [5 <./figs/minimax0.png>] [6]
+! LaTeX Error: File `minimax0' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...udegraphics[width=0.5\linewidth]{minimax0}
+                                                  
+I could not locate the file with any of these extensions:
+.jpg,.pdf,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[5] [6]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <9> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 52.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7> not available
@@ -1042,25 +1045,38 @@ Overfull \hbox (20.90631pt too wide) in paragraph at lines 53--55
 wn Min-i-max The-o-rem of von Neu-mann$[]$.For
  []
 
-
-Underfull \vbox (badness 3668) has occurred while \output is active []
-
- [7]
-[8]
+[7] [8]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
-<figs/Nortree.png, id=246, 475.7775pt x 490.2315pt>
-File: figs/Nortree.png Graphic file (type png)
- <use figs/Nortree.png>
-Package pdftex.def Info: figs/Nortree.png used on input line 88.
-(pdftex.def)             Requested size: 216.81pt x 223.39977pt.
 
-<figs/ao_nor.png, id=247, 460.72125pt x 395.076pt>
-File: figs/ao_nor.png Graphic file (type png)
- <use figs/ao_nor.png>
-Package pdftex.def Info: figs/ao_nor.png used on input line 95.
-(pdftex.def)             Requested size: 216.81pt x 185.91481pt.
+! LaTeX Error: File `Nortree' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88 ...ludegraphics[width=0.5\linewidth]{Nortree}
+                                                  
+I could not locate the file with any of these extensions:
+.jpg,.pdf,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `ao_nor' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.95 ...cludegraphics[width=0.5\linewidth]{ao_nor}
+                                                  
+I could not locate the file with any of these extensions:
+.jpg,.pdf,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 
 Overfull \hbox (2.21931pt too wide) in paragraph at lines 92--98
 \T1/futs/m/n/12 value of the root of AND-OR tree is $(\FML/futmi/m/it/12 a [] b
@@ -1070,35 +1086,46 @@ ee's is $\FMS/futm/m/n/12 :\T1/futs/m/n/12 (\FML/futmi/m/it/12 a [] b\T1/futs/m
 /m/n/12 )$.
  []
 
-[10 <./figs/Nortree.png>] [11 <./figs/ao_nor.png>]
-Underfull \vbox (badness 8189) has occurred while \output is active []
 
- [12]
-[13] <figs/def_0.png, id=292, 364.9635pt x 378.213pt>
-File: figs/def_0.png Graphic file (type png)
- <use figs/def_0.png>
-Package pdftex.def Info: figs/def_0.png used on input line 194.
-(pdftex.def)             Requested size: 130.08731pt x 134.8119pt.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[14 <./figs/def_0.png>]) [15]
+ [10]
+[11] [12]
+
+! LaTeX Error: File `def_0' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.194 ...cludegraphics[width=0.3\linewidth]{def_0}
+                                                  
+I could not locate the file with any of these extensions:
+.jpg,.pdf,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13])
+[14]
 \openout2 = `content/03-Directional.aux'.
 
  (content/03-Directional.tex
 Chapter 3
-[16
+[15
 
 
 
 ]
-Underfull \vbox (badness 6110) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17]
+ [16]
 LaTeX Font Info:    Font shape `T1/futs/bx/sc' in size <12> not available
 (Font)              Font shape `T1/futs/b/sc' tried instead on input line 84.
 
-Underfull \vbox (badness 1102) has occurred while \output is active []
-
- [18]
+[17] [18]
 
 Package natbib Warning: Citation `MR' on page 19 undefined on input line 181.
 
@@ -1122,89 +1149,122 @@ Overfull \hbox (2.35144pt too wide) in paragraph at lines 199--205
 ould see that the lower bound
  []
 
-[19] [20]
+[19]
 \openout2 = `content/04-Non-Directional.aux'.
 
  (content/04-Non-Directional.tex
 Chapter 4
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2753) has occurred while \output is active []
 
- [21
+ [20
 
 
 
 ]
-<figs/nondir.png, id=356, 527.571pt x 542.025pt>
-File: figs/nondir.png Graphic file (type png)
- <use figs/nondir.png>
-Package pdftex.def Info: figs/nondir.png used on input line 31.
-(pdftex.def)             Requested size: 303.53267pt x 311.85217pt.
- [22 <./figs/nondir.png>] <figs/nondir_case2.png, id=363, 527.571pt x 505.89pt>
-File: figs/nondir_case2.png Graphic file (type png)
 
-<use figs/nondir_case2.png>
-Package pdftex.def Info: figs/nondir_case2.png used on input line 46.
-(pdftex.def)             Requested size: 303.53267pt x 291.06203pt.
+! LaTeX Error: File `nondir' not found.
 
-Underfull \vbox (badness 3302) has occurred while \output is active []
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ...cludegraphics[width=0.7\linewidth]{nondir}
+                                                  
+I could not locate the file with any of these extensions:
+.jpg,.pdf,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
- [23 <./figs/nondir_case2.png>]
+
+! LaTeX Error: File `nondir_case2' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...raphics[width=0.7\linewidth]{nondir_case2}
+                                                  
+I could not locate the file with any of these extensions:
+.jpg,.pdf,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[21]
 Overfull \hbox (5.59854pt too wide) in paragraph at lines 57--60
 []\T1/futs/m/n/12 Assuming that di-rec-tional al-go-rithm is faster than or equ
 al to non-directional
  []
 
+[22]
+
+! LaTeX Error: File `nondir_case4' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102 ...aphics[width=0.5\linewidth]{nondir_case4}
+                                                  
+I could not locate the file with any of these extensions:
+.jpg,.pdf,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24]
-<figs/nondir_case4.png, id=376, 571.53525pt x 404.10976pt>
-File: figs/nondir_case4.png Graphic file (type png)
+ [23]
 
-<use figs/nondir_case4.png>
-Package pdftex.def Info: figs/nondir_case4.png used on input line 102.
-(pdftex.def)             Requested size: 216.81pt x 153.29814pt.
+! LaTeX Error: File `nondir_case3def' not found.
 
-<figs/nondir_case3def.png, id=377, 569.12625pt x 569.12625pt>
-File: figs/nondir_case3def.png Graphic file (type png)
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110 ...ics[width=0.5\linewidth]{nondir_case3def}
+                                                  
+I could not locate the file with any of these extensions:
+.jpg,.pdf,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<use figs/nondir_case3def.png>
-Package pdftex.def Info: figs/nondir_case3def.png used on input line 110.
-(pdftex.def)             Requested size: 216.81pt x 216.80864pt.
- [25 <./figs/nondir_case4.png>] [26 <./figs/nondir_case3def.png>]
+[24]
 Overfull \hbox (19.24747pt too wide) in paragraph at lines 156--157
 []\T1/futs/m/n/12 Therefore we could con-clude that di-rec-tional al-go-rithm i
 s faster than the non-directional
  []
 
-) [27]
+) [25]
 \openout2 = `content/05-Generality.aux'.
 
  (content/05-Generality.tex
 Chapter 5
-<figs/fibo_tree.png, id=405, 438.438pt x 536.60475pt>
-File: figs/fibo_tree.png Graphic file (type png)
- <use figs/fibo_tree.png>
-Package pdftex.def Info: figs/fibo_tree.png used on input line 12.
-(pdftex.def)             Requested size: 216.81pt x 265.36224pt.
 
-Underfull \vbox (badness 5302) has occurred while \output is active []
+! LaTeX Error: File `fibo_tree' not found.
 
- [28
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 ...degraphics[width=0.5\linewidth]{fibo_tree}
+                                                  
+I could not locate the file with any of these extensions:
+.jpg,.pdf,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[26
 
 
 
 ]
+Underfull \vbox (badness 6859) has occurred while \output is active []
+
+ [27]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29 <./figs/fibo_tree.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [30]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [31]
+ [28]
 Overfull \hbox (45.79366pt too wide) detected at line 135
 \FML/futmi/m/it/12 [] \FMS/futm/m/n/12   \T1/futs/m/n/12 0\FML/futmi/m/it/12 :
 \T1/futs/m/n/12 284718354857539\FML/futmi/m/it/12 [] \FMS/futm/m/n/12   \T1/fu
@@ -1215,26 +1275,29 @@ mi/m/it/12  \FMS/futm/m/n/12   \T1/futs/m/n/12 0\FML/futmi/m/it/12 :\T1/futs/m
 0
  []
 
-
-Underfull \vbox (badness 1910) has occurred while \output is active []
-
- [32]
-<figs/skew.png, id=451, 412.54124pt x 403.5075pt>
-File: figs/skew.png Graphic file (type png)
- <use figs/skew.png>
-Package pdftex.def Info: figs/skew.png used on input line 206.
-(pdftex.def)             Requested size: 216.81pt x 212.06625pt.
-
-Underfull \vbox (badness 7777) has occurred while \output is active []
-
- [33]
-Underfull \vbox (badness 7888) has occurred while \output is active []
-
- [34 <./figs/skew.png>])
+[29]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35]
-[36]
+ [30]
+
+! LaTeX Error: File `skew' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.206 	\includegraphics[width=0.5\linewidth]{skew}
+                                                  
+I could not locate the file with any of these extensions:
+.jpg,.pdf,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[31]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32])
+[33]
 \openout2 = `content/06-Conclusion.aux'.
 
  (content/06-Conclusion.tex
@@ -1242,15 +1305,15 @@ Chapter 6
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37
+ [34
 
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38])
-[39]
+ [35])
+[36]
 \openout2 = `app/app_detailed_calculation.aux'.
 
  (app/app_detailed_calculation.texpdfTeX warning (ext4): destination with the s
@@ -1263,12 +1326,15 @@ Appendix A
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40
+ [37
 
 
 
 ])
-[41] (cwru-cse-thesis.bbl
+Underfull \vbox (badness 1852) has occurred while \output is active []
+
+ [38]
+[39] (cwru-cse-thesis.bbl
 Complete References
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--7
@@ -1285,7 +1351,7 @@ ppe Fla-jo-let.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42
+ [40
 
 
 ])
@@ -1293,7 +1359,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 261.
-[43]
+[41]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 261.
  (cwru-cse-thesis.aux (content/01-Introduction.aux)
 (content/02-Background.aux) (content/03-Directional.aux)
@@ -1306,11 +1372,11 @@ Package rerunfilecheck Info: File `cwru-cse-thesis.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 261.
  ) 
 Here is how much of TeX's memory you used:
- 12208 strings out of 493323
- 174978 string characters out of 3139066
- 286729 words of memory out of 3000000
- 15071 multiletter control sequences out of 15000+200000
- 115996 words of font info for 120 fonts, out of 3000000 for 9000
+ 12162 strings out of 493323
+ 173989 string characters out of 3139066
+ 288731 words of memory out of 3000000
+ 15030 multiletter control sequences out of 15000+200000
+ 111435 words of font info for 117 fonts, out of 3000000 for 9000
  1302 hyphenation exceptions out of 8191
  44i,15n,44p,1267b,1659s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exi
@@ -1328,9 +1394,9 @@ blic/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagd8a.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/urw/avantgar/uagk8a.pfb>
-Output written on cwru-cse-thesis.pdf (51 pages, 705392 bytes).
+Output written on cwru-cse-thesis.pdf (48 pages, 245008 bytes).
 PDF statistics:
- 611 PDF objects out of 1000 (max. 8388607)
- 205 named destinations out of 1000 (max. 500000)
- 1747 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 576 PDF objects out of 1000 (max. 8388607)
+ 202 named destinations out of 1000 (max. 500000)
+ 1697 words of extra memory for PDF output out of 10000 (max. 10000000)
 
